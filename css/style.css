@@ -1,0 +1,126 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 82px;
+    margin: 82px 149px 0 149px;
+}
+.uploadButton{
+    display: block;
+    width: 185px;
+    height: 54px;
+    background: #2F80ED;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    margin-top: 58px;
+    vertical-align: middle;
+}
+/* position: relative는 자식태그 겹치게해서 이동하게 하기 위한 것 */
+.images{
+    float: left;
+    width: 1050px;
+    height: 500px;
+    position: relative;
+}
+img{
+    border-radius: 15px;
+    -webkit-box-reflect: below 35px linear-gradient(transparent 50%, white 200%);
+}
+.prevButton{
+    float: left;
+    margin-top: 259px;
+    margin-right: 57px;
+    width: 140px;
+    height: 62px;
+    background: #FFFFFF;
+    border: 3px solid #828282;
+    border-radius: 36.5px;
+    font-size: 20px;
+    line-height: 29px;
+    align-items: center;
+}
+.nextButton{
+    float: left;
+    margin-top: 259px;
+    margin-left: 57px;
+    width: 140px;
+    height: 62px;
+    background: #FFFFFF;
+    border: 3px solid #828282;
+    border-radius: 36.5px;
+    font-size: 20px;
+    line-height: 29px;
+    align-items: center;
+}
+
+/* 이미지 업로드 */
+.inputButton{
+    visibility: hidden;
+}
+
+/* 1~5번 container */
+.image1{
+    width: 289px;
+    height: 289px;
+    background-color: red;
+    margin-top: 140px;
+    border-radius: 13px;
+    filter: brightness(80%);
+    z-index: 1;
+    position: absolute;
+
+    left: 0;
+}
+.image2{
+    width: 378px;
+    height: 378px;
+    background-color: orange;
+    margin-top: 92px;
+    border-radius: 13px;
+    filter: brightness(80%);
+    z-index: 2;
+    position: absolute;
+
+    left: 144px;
+}
+.image3{
+    width: 464px;
+    height: 464px;
+    background-color: yellow;
+    margin-top: 58px;
+    border-radius: 13px;
+    z-index: 3;
+    position: absolute;
+
+    left: 335px;
+}
+.image4{
+    width: 378px;
+    height: 378px;
+    background-color: green;
+    margin-top: 92px;
+    border-radius: 13px;
+    filter: brightness(80%);
+    z-index: 2;
+    position: absolute;
+
+    left: 580px;
+}
+.image5{
+    width: 289px;
+    height: 289px;
+    background-color: blue;
+    margin-top: 140px;
+    border-radius: 13px;
+    filter: brightness(80%);
+    z-index: 1;
+    position: absolute;
+
+    left: 800px;
+}
