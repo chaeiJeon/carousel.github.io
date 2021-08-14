@@ -3,11 +3,14 @@ const uploadButton = document.querySelector(".uploadButton");
 const images = document.querySelector(".images");
 const nextButton = document.querySelector(".nextButton");
 const prevButton = document.querySelector(".prevButton");
-
+const greeting = document.querySelector(".greeting");
 let count=0;
+console.log(greeting);
 // 처음 업로드 된 이미지는 무조건 3번 container에 놓고,
 // 그다음 이미지가 업로드 되면 오른쪽으로 한칸씩 밀린다.
 function addImage(image) {
+    greeting.classList.add("hidden");
+    console.log(greeting);
     const list = images.children;
     for (let index = 0; index < list.length; index++) {
         moveRight(list[index]);

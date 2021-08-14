@@ -63,7 +63,21 @@ img{
 .inputButton{
     visibility: hidden;
 }
-
+.greeting{
+    width: 600px;
+    margin-top: 270px;
+    border-radius: 13px;
+    z-index: 3;
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+    left: 630px;
+    -webkit-box-reflect: below 35px linear-gradient(transparent, white 300%);
+}
+.hidden{
+    visibility: hidden;
+}
 /* 1~5번 container */
 .image1{
     width: 280px;
