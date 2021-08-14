@@ -66,12 +66,12 @@ img{
 
 /* 1~5번 container */
 .image1{
-    width: 289px;
-    height: 289px;
+    width: 280px;
+    height: 280px;
     background-color: red;
     margin-top: 140px;
     border-radius: 13px;
-    filter: brightness(80%);
+    filter: brightness(70%);
     z-index: 1;
     position: absolute;
 
@@ -83,7 +83,7 @@ img{
     background-color: orange;
     margin-top: 92px;
     border-radius: 13px;
-    filter: brightness(80%);
+    filter: brightness(70%);
     z-index: 2;
     position: absolute;
 
@@ -106,19 +106,19 @@ img{
     background-color: green;
     margin-top: 92px;
     border-radius: 13px;
-    filter: brightness(80%);
+    filter: brightness(70%);
     z-index: 2;
     position: absolute;
 
     left: 580px;
 }
 .image5{
-    width: 289px;
-    height: 289px;
+    width: 280px;
+    height: 280px;
     background-color: blue;
     margin-top: 140px;
     border-radius: 13px;
-    filter: brightness(80%);
+    filter: brightness(70%);
     z-index: 1;
     position: absolute;
 

@@ -10,13 +10,7 @@ let count=0;
 function addImage(image) {
     const list = images.children;
     for (let index = 0; index < list.length; index++) {
-        console.log(list);
-        if(list[index].className==='image1' || list[index].className==='image2'){
-            continue;
-        }
-        else{
-            moveRight(list[index]);
-        }
+        moveRight(list[index]);
     }
     image.className = `image3`;
     count++;
@@ -52,8 +46,6 @@ inputButton.addEventListener("change", (e) => {
 })
 // nextButton을 누르면 각 이미지는 다음 이미지 class로 넘어간다.
 // 6번이 된다면 1번으로 돌아가게 한다
-// next 눌렀는데 4번이 없으면 none
-// prev 눌렀는데 번이 없으면 none
 nextButton.addEventListener("click", event => {
     const list = images.children;
     for (let index = 0; index < list.length; index++) {
@@ -66,14 +58,10 @@ nextButton.addEventListener("click", event => {
     }
 })
 prevButton.addEventListener("click", event => {
-    console.log("prevButton-----------");
     const list = images.children;
     for (let index = 0; index < list.length; index++) {
-        console.log(list);
         if (list[index].className === 'image2') {
-            console.log("moveRight");
             for (let index = 0; index < list.length; index++) {
-                console.log("for");
                 moveRight(list[index]);
             }
             break;
